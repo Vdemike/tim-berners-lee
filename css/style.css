@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(17, 14, 44);
     color: aliceblue;
     height: 48px;
     margin: 0;
@@ -31,7 +31,7 @@ nav {
     padding: 0%;
 }
 .logo {
-    height:58px;
+    height:100%;
 }
 .full {
     margin: 5px 20px;
@@ -78,6 +78,8 @@ nav {
     margin: 0 0 5px 0;
     font-style: normal;
 }
+
+
 .general-info {
     display: flex;
     flex-direction: column;
@@ -86,8 +88,8 @@ nav {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border: 0.5px solid rgb(187, 179, 179);
-    height: 470px;
-    width: 372px;
+    width: 100%;
+    height: auto;
 }
 
 .img-box {
@@ -121,6 +123,7 @@ nav {
     padding: 10px 0;
     border-bottom: 1px solid rgb(216, 209, 209);
     border-width: 100%;
+    font-size: 12px;
 }
 
 .details {
