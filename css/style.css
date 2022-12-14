@@ -144,15 +144,19 @@ nav {
     }
     .Bio {
         grid-area: info;
-        padding: 0%;
+        padding: 25px;
     }
     .general-info {
         grid-area: general;
     }
 
     .full {
-        width: 50%;
+        width: 40%;
         border: 1px solid rgb(223, 219, 219);
         padding: 15px;
+    }
+    .btn {
+        display: flex;
+        justify-content: left;
     }
 }
