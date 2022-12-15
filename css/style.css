@@ -138,7 +138,8 @@ nav {
         display: grid;
         width: 100%;
         grid-template-areas:
-        "info info general";
+        "info info general"
+        "empty empty general";
         grid-template-rows: auto;
         grid-template-columns: auto;
     }
